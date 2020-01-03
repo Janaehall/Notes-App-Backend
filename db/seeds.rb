@@ -7,16 +7,16 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 require 'faker'
-require 'lorem'
+require 'betterlorem'
 
 user = User.create(name: "nae nae")
 
 5.times do 
   tags = []
   4.times do 
-    tags.push(Tag.find_or_create_by(name: Faker::Books::Lovecraft.words))
+    tags.push(Tag.find_or_create_by(name: BetterLorem.w(1, true, true)))
   end
-  Note.create(title: Lorem::Base.new('words', 10).output, content: Lorem::Base.new('paragraphs', 1), user_id: user.id, tags: tags )
+  Note.create(title: BetterLorem.w(5, true, true), content: BetterLorem.p(1, true), user_id: user.id, tags: tags )
 end
 
 

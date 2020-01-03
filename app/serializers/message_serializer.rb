@@ -8,7 +8,7 @@ class MessageSerializer < ActiveModel::Serializer
   end
   
   def to_serialized_json
-    @user.to_json(:include => {
+    @message.to_json(:include => {
       :note => {include: [tags: {only: [:name]}], except: [:created_at, :updated_at]}
     },
     :except => [:created_at, :updated_at])
