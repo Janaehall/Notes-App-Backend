@@ -22,7 +22,8 @@ rails s
 
 ## Built With
 This application was built using:
-
-React Bootstrap
-Rails v6.0
-React v16.12
+<ul>
+  <li>React Bootstrap</li>
+  <li>Rails v6.0</li>
+  <li>React v16.12</li>
+  </ul>
