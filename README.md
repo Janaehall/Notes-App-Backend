@@ -18,3 +18,11 @@ rails s
 ```
 4. Follow the instructions in the ReadMe on Notes-App-Frontend
 5. Enjoy FlatNote!
+
+
+## Built With
+This application was built using:
+
+React Bootstrap
+Rails v6.0
+React v16.12
