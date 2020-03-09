@@ -1,4 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 # FlatNote
 Welcome to FlatNote!
 FlatNote is an application that allows you to create, manage, and send notes! 
