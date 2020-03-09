@@ -13,6 +13,7 @@ Clone this repo along with Notes-App-Frontend follow these steps:
 2. Run the following in your command line:
 ```bash
 bundle install
+rails db:create
 rails db:migrate
 rails s
 ```
